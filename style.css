@@ -70,12 +70,15 @@ li {
   justify-content: center;
 }
 
+#about, #discord, #contact  {
+  padding: 48px 0;
+}
+
 /*
 ABOUT SECTION
 */
 
 #about {
-  padding: 48px 0;
   background-color: #f8ffdc;
 }
 
@@ -113,3 +116,12 @@ img {
   line-height: 1.5;
   margin-bottom: 24px;
 }
+
+/*
+DISCORD SECTION
+*/
+
+#discord {
+  background-color: #cefcff;
+}
+
