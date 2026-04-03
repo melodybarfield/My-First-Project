@@ -51,7 +51,8 @@ p {
   line-height: 1.5;
 }
 
-main section footer {
+main section,
+footer {
   padding: 48px 0;
 }
 
@@ -87,21 +88,6 @@ li {
 .logo {
   width: 300px;
 }
-
-/*.home__description,
-.home__img--wrapper {
-  width: 50%;
-}
-
-.home__img--wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.home__img {
-  width: 80%;
-}
-*/
 
 #about,
 #discord,
@@ -195,6 +181,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
 .footer__logo {
   max-width: 480px;
   margin-bottom: 16px;
@@ -222,7 +209,7 @@ footer {
   }
 
   .home__description--button {
-    max-width: 24px;
+    max-width: 240px;
   }
 
   h1 {
@@ -264,7 +251,7 @@ footer {
   }
 
   .footer__link {
-    padding: 0 8px;
+    padding: 0 4px;
     font-size: 18px;
   }
 
